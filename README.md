@@ -4,7 +4,7 @@
 
 Install:
 ```shell
-ray ext local install -i '{
+ray ext local install -o -i '{
     "name": "JSON Viewer",
     "description": "View JSON files in Launcher",
     "author": "fzdwx",
