@@ -1,20 +1,14 @@
-# launcher extension sample
+# Launcher JSON Viewer
 
-It's https://github.com/fzdwx/launcher extension sample
+![img.png](https://raw.githubusercontent.com/fzdwx/assets/main/assets/1705139225215461)
 
-### Development:
-
+Install:
 ```shell
-pnpm install
-pnpm update launcher-api
-pnpm run dev
+ray ext local install -i '{
+    "name": "JSON Viewer",
+    "description": "View JSON files in Launcher",
+    "author": "fzdwx",
+    "icon": "https://raw.githubusercontent.com/fzdwx/launcher-json/main/public/logo.svg",
+    "github": "https://github.com/fzdwx/launcher-json"
+}'
 ```
-
-1. Use [template](https://github.com/fzdwx/launcher-extension-sample)
-2. Start the launcher after pnpm dev, enter dev and turn on `dev mode` option
-
-### Release:
-
-1. Must submit the `dist` directory
-2. Submit a pr to https://github.com/fzdwx/launcher-extension, in `extensions .json` Add information about your
-   extension
